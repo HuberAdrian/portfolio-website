@@ -5,7 +5,7 @@ function Project(props) {
 
   return (
     <>
-      <a href={link} rel="noopener noreferrer" target="_blank">
+      <a className='project' href={link} rel="noopener noreferrer" target="_blank">
         <img className='image_preview' src={image}></img>
         <h3 className='h3_preview' >{name}</h3>
       </a>

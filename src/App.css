@@ -1,10 +1,22 @@
-.App {
+h1 {
   text-align: center;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.flex_container {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: left;
 }
 
 .image_preview {
   height: 250px;
   width: auto;
+  border-radius: 15px;
 }
 
 .h3_preview {
@@ -12,6 +24,13 @@
   margin-top: 2px;
 }
 
-.a {
-  text-decoration: none;
+.project {
+  border: 3px solid black;
+  margin-left: 20px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.project:hover {
+  border: 5px solid red;
 }
