@@ -12,6 +12,7 @@ function Project(props) {
         <h3 className='h3_preview' >{name}</h3>
       </a>
         <Collapsible />
+        <Collapsible />
       
     </div>
     </>
