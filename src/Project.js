@@ -2,7 +2,7 @@ import React from 'react'
 import Collapsible from './Collapsible';
 
 function Project(props) {
-    const {name, link, image, learned, used_technologies, description} = props
+    const {name, link, image, used_technologies, description} = props
 
   return (
     <>
@@ -11,9 +11,8 @@ function Project(props) {
         <img className='image_preview' src={image}></img>
         <h3 className='h3_preview' >{name}</h3>
       </a>
-        <Collapsible />
-        <Collapsible />
-      
+        <Collapsible header="Description" text={description} />
+        <Collapsible header="Technologies used" text={used_technologies} bullet_list={true} />
     </div>
     </>
   )
