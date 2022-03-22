@@ -9,9 +9,9 @@ function App() {
       <h1>Programming Projects</h1>
       <h2>Web Development</h2>
       <div className='flex_container'>
-        <Project name="Online Shop" link="http://online-shop.adrian-huber.org" image="Images/Online_Shop.png" />
-        <Project name="Copilot for Web Development" link="" image="Images/Co_Pilot.png" />
-        <Project name="Food Tracker" link="https://www.google.com" image="Images/Food_Tracker.png" used_technologies="" description="" />
+        <Project name="Online Shop" link="http://online-shop.adrian-huber.org" image="Images/Online_Shop.png" description="" used_technologies={[]} />
+        <Project name="Copilot for Web Development" link="" image="Images/Co_Pilot.png" description="" used_technologies={[]} />
+        <Project name="Food Tracker" link="https://www.google.com" image="Images/Food_Tracker.png" used_technologies={["React", "HTML", "CSS", "JS"]} description="" />
       </div>
       <h2>Data Science</h2>
 
