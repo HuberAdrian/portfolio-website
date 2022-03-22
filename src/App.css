@@ -34,10 +34,11 @@ h2 {
   margin-left: 20px;
   border-radius: 15px;
   padding: 5px;
+  width: 447px;
 }
 
 .project:hover {
-  border: 5px solid red;
+  border: 5px solid black;
 }
 
 .collapsible .content {
@@ -45,7 +46,7 @@ h2 {
   background-color: #eeeeee;
 }
 .collapsible .header {
-  background-color: #dddddd;
+  background-color: #dddddd;;
   padding: 6px;
   cursor: pointer;
 }

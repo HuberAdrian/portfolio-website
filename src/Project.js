@@ -4,7 +4,6 @@ import Collapsible from './Collapsible';
 function Project(props) {
     const {name, link, image, used_technologies, description} = props
 
-    console.log(used_technologies)
   return (
     <>
     <div className='project'>

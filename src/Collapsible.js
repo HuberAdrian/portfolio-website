@@ -8,7 +8,6 @@ function Collapsible(props) {
     const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
     const {header, text, bullet_list=false} = props;
 
-    console.log(text)
     let rendered_text = text;
     if (bullet_list) {
         rendered_text = (<ul>{
