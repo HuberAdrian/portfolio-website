@@ -15,6 +15,7 @@ function App() {
       </div>
       <h2>Data Science</h2>
 
+      <h2>Mechanical Engineering Projects</h2>
     </div>
   );
 }
