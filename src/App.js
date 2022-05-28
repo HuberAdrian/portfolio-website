@@ -14,7 +14,7 @@ function App() {
         <Project name="Food Tracker" link="https://adrian-huber.org/food-tracker/" image="Images/Food_Tracker.png" used_technologies={["Chart.js (Library)", "snackbar (Library)", "HTML", "CSS", "JavaScript"]} description="A web application which tracks the nutritional values of specified food. The combined values are also displayed in an animated chart below. The Data is stored in a database (Firestore)." />
       </div>
       <h2>Data Science</h2>
-
+      <Project name="Movie Recommender System" link="http://online-shop.adrian-huber.org" image="Images/Online_Shop.png" description="Movie recommender system for the Movielens data base, using different approaches of a collaborative item-item filter based on the given ratings" used_technologies={["Python","pandas","numpy", "matplotlib","sklearn", "surprise library" , "Google Colab"]} />
       <h2>Mechanical Engineering Projects</h2>
     </div>
   );
