@@ -16,9 +16,11 @@ function App() {
       <h2>Data Science</h2>
       <Project name="Movie Recommender System" link="http://online-shop.adrian-huber.org" image="Images/Online_Shop.png" description="Movie recommender system for the Movielens data base, using different approaches of a collaborative item-item filter based on the given ratings" used_technologies={["Python","pandas","numpy", "matplotlib","sklearn", "surprise library" , "Google Colab"]} />
       <h2>Mechanical Engineering Projects</h2>
-      <Project name="numeric" link="http://online-shop.adrian-huber.org" image="Images/Online_Shop.png" description="A complete online store with Stripe API (testmode), cart, local storage and many more features" used_technologies={["React", "Redux", "Jest (testing Library)", "React-router-dom", "Stripe API", "HTML", "CSS", "JavaScript"]} />
-      <Project name="construction of a planetary gear" link="http://online-shop.adrian-huber.org" image="Images/Online_Shop.png" description="A complete online store with Stripe API (testmode), cart, local storage and many more features" used_technologies={["React", "Redux", "Jest (testing Library)", "React-router-dom", "Stripe API", "HTML", "CSS", "JavaScript"]} />
-      <Project name="simulations" link="http://online-shop.adrian-huber.org" image="Images/Online_Shop.png" description="A complete online store with Stripe API (testmode), cart, local storage and many more features" used_technologies={["React", "Redux", "Jest (testing Library)", "React-router-dom", "Stripe API", "HTML", "CSS", "JavaScript"]} />
+      <div className='flex_container'>
+        <Project name="numeric" link="https://github.com/HuberAdrian/mechanical-engineering/tree/main/numeric" image="Images/Online_Shop.png" description="interplation, numerical methods nonlinear equations, numerical differentation, numerical integration" used_technologies={["React", "Redux", "Jest (testing Library)", "React-router-dom", "Stripe API", "HTML", "CSS", "JavaScript"]} />
+        <Project name="construction of a planetary gear" link="https://github.com/HuberAdrian/mechanical-engineering/tree/main/construction%20of%20planetary%20gear" image="Images/Online_Shop.png" description="A complete online store with Stripe API (testmode), cart, local storage and many more features" used_technologies={["React", "Redux", "Jest (testing Library)", "React-router-dom", "Stripe API", "HTML", "CSS", "JavaScript"]} />
+        <Project name="simulations" link="https://github.com/HuberAdrian/mechanical-engineering/tree/main/simulations" image="Images/Online_Shop.png" description="A complete online store with Stripe API (testmode), cart, local storage and many more features" used_technologies={["React", "Redux", "Jest (testing Library)", "React-router-dom", "Stripe API", "HTML", "CSS", "JavaScript"]} />
+      </div>
     </div>
   );
 }
